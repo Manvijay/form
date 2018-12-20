@@ -2,10 +2,10 @@
   mail('manvijay@buffalo.edu', 'checking php');
 
   if(mail('manvijay@buffalo.edu', 'checking php')){
-    echo "e-mail sent";
+    echo "<h1> Sent Successfully</h1>";
   }
   else {
-    echo "something went wrong!"
+    echo "<h1>something went wrong!</h1>"
   }
 
  ?>
